@@ -50,6 +50,11 @@ vec2.reflect = function(v, n) {
 	return vec2.add(v, vec2.mul(vec2.mul(n, vec2.dot(v, n)), -2));
 };
 
+// Return the cross product (3d, but the z-coord is 0)
+vec2.cross = function(v1, v2) {
+	return v1.x * v2.y - v1.y * v2.x;
+};
+
 // Return vector v rotated by r radians
 vec2.rot = function(v, r) {
 	var sinAngle = Math.sin(r),

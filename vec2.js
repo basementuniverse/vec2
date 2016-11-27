@@ -17,12 +17,12 @@
  */
 var vec2 = function(x, y) {
 	if (arguments.length == 1) {
-		if (x instanceof Array && x.length > 1) {	// vec2 from array
+		if (x instanceof Array && x.length > 1) { // vec2 from array
 			return { x: x[0], y: x[1] };
 		} else if (x.x !== undefined && x.y !== undefined) {
-			return { x: x.x, y: x.y };				// vec2 from vec2 (copy)
+			return { x: x.x, y: x.y }; // vec2 from vec2 (copy)
 		}
-		return { x: 0, y: 0 };						// Arguments incorrect, return [0, 0]
+		return { x: 0, y: 0 }; // Arguments incorrect, return [0, 0]
 	}
 	return { x: x || 0, y: y || 0 };
 };

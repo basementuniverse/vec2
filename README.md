@@ -10,10 +10,10 @@ A basic 2d vector library in JS
     * [.reflect(v, n)](#vec2.reflect) ⇒ <code>[vec2](#vec2)</code>
     * [.cross(v1, v2)](#vec2.cross) ⇒ <code>Number</code>
     * [.rot(v, r)](#vec2.rot) ⇒ <code>[vec2](#vec2)</code>
-    * [.add(v1, v2)](#vec2.add) ⇒ <code>Number</code>
-    * [.sub(v1, v2)](#vec2.sub) ⇒ <code>Number</code>
-    * [.mul(v1, v2)](#vec2.mul) ⇒ <code>Number</code>
-    * [.div(v1, v2)](#vec2.div) ⇒ <code>Number</code>
+    * [.add(v1, v2)](#vec2.add) ⇒ <code>[vec2](#vec2)</code>
+    * [.sub(v1, v2)](#vec2.sub) ⇒ <code>[vec2](#vec2)</code>
+    * [.mul(v1, v2)](#vec2.mul) ⇒ <code>[vec2](#vec2)</code>
+    * [.div(v1, v2)](#vec2.div) ⇒ <code>[vec2](#vec2)</code>
     * [.eq(v1, v2)](#vec2.eq) ⇒ <code>Boolean</code>
     * [.fromString(s)](#vec2.fromString) ⇒ <code>[vec2](#vec2)</code>
     * [.toString(v, [s])](#vec2.toString) ⇒ <code>String</code>

@@ -201,9 +201,7 @@ vec2.fromString = function(s) {
 	if (values.length == 2) {
 		var x = parseFloat(values[0]),
 			y = parseFloat(values[1]);
-		if (!isNaN(x) && !isNaN(y)) {
-			return vec2(x, y);
-		}
+		return vec2(x, y);
 	}
 	return vec2(0, 0);
 };

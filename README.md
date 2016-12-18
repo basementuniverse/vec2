@@ -37,9 +37,9 @@ returned instead.
 
 **Example**  
 ```js
-let v1 = vec2(2, 1); // v1 == { x: 2, y: 1 }
-let v2 = vec2([2, 1]); // v2 == { x: 2, y: 1 }
-let v3 = vec2(v1); // v3 == { x: 2, y: 1 }
+var v1 = vec2(2, 1); // v1 == { x: 2, y: 1 }
+var v2 = vec2([2, 1]); // v2 == { x: 2, y: 1 }
+var v3 = vec2(v1); // v3 == { x: 2, y: 1 }
 ```
 
 <a name="vec2.map"></a>
@@ -58,7 +58,7 @@ Return a new vector from v by mapping it's components to f.
 
 **Example**  
 ```js
-let v = vec2(1.5, 2.5);
+var v = vec2(1.5, 2.5);
 v = vec2.map(v, Math.floor); // v == { x: 1, y: 2 }
 ```
 <a name="mapCallback"></a>

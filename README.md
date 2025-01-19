@@ -1,4 +1,8 @@
 # vec2
+
+> DEPRECATED
+> This has been replaced by https://github.com/basementuniverse/vec
+
 A basic 2d vector library in JS
 
 * [vec2(x, [y])](#vec2) ⇒ <code>Object</code>
